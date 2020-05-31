@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Freddie Mercury Biography</title>
+
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu-responsive.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="../css/life.css" media="screen"/>
+</head>
+<body id="main">
+<header>
+<div class="topnav" id="myTopnav">
+    <a href="#" class="active">Freddie's life</a>
+    <a href="menu.html">Home</a>
+    <a href="queen.html">Queen collaboration</a>
+    <a href="records.html">Single records</a>
+    <a href="movie.html">The movie</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+</header>
+
+<div class="content">
+
+    <article class="articles">
+        <h1>Freddie Mercury</h1>
+
+        <article class="child">
+            <aside>
+                Freddie Mercury (nascut Farrokh Bulsara pe 5 septembrie 1946), s-a născut pe insula africană Zanzibar,
+                Tanzania. Părinții săi erau perși din India care practicau religia antică zoroastriană.
+                <aside> Mercury a fost trimis în India la vârsta de 7 ani pentru a merge la Saint Peter's Boys School, o
+                    școală pentru băieți din Panchgani lângă Bombay.
+                </aside>
+            </aside>
+            <aside>
+                A fost un muzician, compozitor și textier britanic, cunoscut ca vocalist al formației britanice de
+                muzică rock Queen.
+            </aside>
+        </article>
+        <article class="child">
+            <h2><span>1970</span></h2>
+            <aside>
+                La începutul anilor 1970, Mercury avea o relație de lungă durată cu prietena Mary Austin, cu care locuia
+                de mulți ani.
+            </aside>
+            <aside>
+
+            </aside>
+        </article>
+
+        <article class="child">
+            <h2> 1991 </h2>
+            <aside>
+                Conform cărții lui Jim Hutton, Mercury and Me, Mercury a fost diagnosticat cu SIDA în primăvara anului
+                1987, puțin după Paște.
+                <aside> În același an, Mercury a declarat că testul său a ieșit negativ. În ciuda negațiilor, presa
+                    britanică a continuat zvonurile în anii următori, din cauza stării psihice și aparenței fizice a lui
+                    Mercury, din ce în ce mai slăbit și mai subțire, precum și din cauza lipsei de turnee a celor de la
+                    Queen.
+                    <aside> Până la sfârșitul vieții sale, Mercury fusese urmărit de fotografii de scandal, de tip
+                        paparazi, în timp ce tabloidul The Sun susținea că Mercury este grav bolnav.
+                    </aside>
+                    <aside>
+                        Apariția sa din ultimul său videoclip, „These Are the Days of Our Lives”, le-a confirmat
+                        suspiciunile.
+                    </aside>
+                </aside>
+        </article>
+        <article class="child">
+
+            <aside>
+                Moartea lui Freddie Mercury a reprezentat un moment important în istoria SIDA. În primăvara anului
+                1992, membrii rămași în viață din formația Queen au fondat The Mercury Phoenix Trust și au organizat
+                Concertul tribut Freddie Mercury pentru prevenirea SIDA. Concertul, care a avut loc pe Wembley
+                Stadium în fața a 72.000 de oameni, a inclus nume mari din lumea muzicii, precum: Robert Plant,
+                Extreme, Elton John, Metallica, David Bowie, Annie Lennox, Tony Iommi, Guns N' Roses, Elizabeth
+                Taylor, George Michael, Def Leppard și Liza Minnelli. Concertul a fost transmis în 76 de țări și a
+                înregistrat o audiență de peste 1 miliard de telespectatori.
+            </aside>
+
+        </article>
+
+        <article class="child">
+            <aside id="paragraf" style=" background-color:  steelblue;">
+                „În urma relatărilor din presă din ultimele două săptămâni,
+                doresc să confirm că am fost testat seropozitiv și că am SIDA.
+                Am simțit că este corect să țin această informație doar pentru mine până acum pentru a proteja
+                intimitatea celor din jurul meu.
+                Acum a venit timpul pentru ca prietenii și fanii mei din toată lumea să afle adevărul și sper că toată
+                lumea se va alătura doctorilor mei în lupta acestei boli teribile.
+                Intimitatea a fost mereu specială pentru mine și sunt cunoscut pentru lipsa de interviuri. Vă rog să
+                înțelegeți că această politică va continua.”
+
+            </aside>
+        </article>
+        <p><button onclick="BackColor()">Afla culoare paragraf</button></p>
+        <p>Culoare background: <span id="demo"></span></p>
+
+    </article>
+
+<!--    <div>-->
+<!--        <button onclick = "Functie()">Try it</button>-->
+<!--        <button onclick="myStopFunction()">Stop time</button>-->
+
+<!--    </div>-->
+
+<!--    <p id="obiect"></p>-->
+<!--    <p id="persoana"></p>-->
+
+    Name: <input type="text" id="myText" >
+    <button onclick="myFunction()">---></button>
+
+
+<p>Apasa pe X: </p>
+<div id="imagine">
+    <img src="../img/freddie1.jpg">
+    <span onclick="this.parentElement.style.display = 'none';" class="closebtn">&times;</span>
+</div>
+</div>
+
+<footer class="footer">
+    <a href="#top" style="font-size: 30px;">UP</a>
+    <span id="word-count">0</span>
+    <br>words found
+</footer>
+
+
+<script src="../js/menu.js"></script>
+<script src="../js/life.js"></script>
+
+
+<script src="../js/calcul.js"></script>
+<script>
+    (function() {
+        console.log("funct");
+        calculCuv('main', 'word-count');
+    })();
+</script>
+</body>
+</html>

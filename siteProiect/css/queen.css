@@ -1,0 +1,51 @@
+.content {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 5% auto;
+
+    display: block;
+}
+
+.content .band {
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+}
+
+.band #text {
+    width: 55%;
+    display: inline;
+}
+
+.band .picture {
+    width: 35%;
+    display: inline-block;
+    margin: auto;
+}
+
+.content .band div .img-width {
+    max-width: 100%;
+}
+
+#cantareti{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.content .imagini{
+    margin: auto;
+    display: inline-flex;
+
+}
+.footer{
+    background-color: lightslategrey;
+}
+.mystyle {
+
+    background-color: darkseagreen;
+
+}
+.info{
+    background-color: dodgerblue;
+}

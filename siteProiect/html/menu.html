@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <a href="http://localhost:8080/">CLICK</a>
+
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu-responsive.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="../css/home.css" media="screen"/>
+
+</head>
+<body id="main">
+<header>
+    <nav class="topnav" id="myTopnav">
+        <a href="#" class="active">Home</a>
+        <a href="life.html">Freddie's life</a>
+        <a href="queen.html">Queen collaboration</a>
+        <a href="records.html">Single records</a>
+        <a href="movie.html">The movie</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+</header>
+
+
+<div class="content">
+
+    <!--TASK NIVEL 2 ex 1-->
+    <form id="varsta">
+        <label for="varsta-data"> Varsta: </label>
+        <input type="text" placeholder="zi#luna#an" id="varsta-data"><br>
+    </form>
+
+    <button type="button" onclick="test()">Submit</button>
+    <p id="demo1"></p>
+
+    <!--END-->
+
+    <div class="home-quotes">
+        <div class="quote">
+            <div class="q" onclick="clickCounter()">
+                "I won't be a rock star. I will be a legend."
+            </div>
+            <div class="a">
+                Freddie Mercury
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="carousel" onclick="func2()">
+        <div class="images" onclick="func1()">
+            <div class="show btn-left" onclick="show(-1)">
+                <div style="font-size: 6em; padding: 5%">
+                    <!--                    <i class="fa fa-arrow-left"></i>-->
+                </div>
+            </div>
+
+            <div id="i1" class="img show"><img src="../img/13.jpg"></div>
+            <div id="i2" class="img"><img src="../img/2.jpg"></div>
+            <div id="i3" class="img"><img src="../img/3.jpg"></div>
+            <div id="i4" class="img"><img src="../img/4.jpg"></div>
+            <div id="i5" class="img"><img src="../img/5.jpg"></div>
+            <div id="i6" class="img"><img src="../img/6.jpg"></div>
+            <div id="i7" class="img"><img src="../img/7.jpg"></div>
+            <div id="i8" class="img"><img src="../img/8.jpg"></div>
+            <div id="i9" class="img"><img src="../img/9.jpg"></div>
+            <div id="i10" class="img"><img src="../img/10.png"></div>
+            <div id="i11" class="img"><img src="../img/11.jpg"></div>
+            <div id="i12" class="img"><img src="../img/12.jpg"></div>
+
+            <div class="show btn-right" onclick="show(1)">
+                <div style="font-size: 6em; padding: 5%; float: right;">
+                    <!--                    <i class="fa fa-arrow-right"></i>-->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <p>Click on quote</p>
+    <div id="result"></div>
+    <p id="demo">
+        <button onclick="f()"> Despre Freddie</button>
+    </p>
+
+    Stop propagation- Click on image
+    <input type="checkbox" id="check">
+
+
+</div>
+</div>
+
+<footer class="footer">
+    <a href="#top" style="font-size: 30px;">UP</a>
+    <span id="word-count">0</span>
+    <br>words found
+</footer>
+
+
+<script src="../js/menu.js"></script>
+<script src="../js/carousel.js"></script>
+
+
+<script src="../js/calcul.js"></script>
+<script>
+    (function() {
+        console.log("funct");
+        calculCuv('main', 'word-count');
+    })();
+</script>
+</body>
+</html>

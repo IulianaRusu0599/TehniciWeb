@@ -1,0 +1,88 @@
+.content {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 5% auto;
+    display: block;
+}
+
+.content .home-quotes {
+    margin: 1em;
+    padding: 0.1em;
+}
+
+.content .home-quotes .quote {
+    margin-top: 5%;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+.content .home-quotes .quote .q {
+    font-size: 2.5em;
+    font-style: italic ;
+    /*float: left;*/
+    padding-left: 22%;
+}
+
+.content .home-quotes .quote .a {
+    font-size: 1em;
+    font-style: italic;
+    float: left;
+    padding-left: 59%;
+}
+
+.content .bio {
+    margin: 5% 3%;
+}
+
+.content .carousel {
+    margin: 5% 3%;
+}
+
+.content .carousel .images {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+
+.content .carousel .images .img {
+    display: none;
+}
+
+.content .carousel .images div.show {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+
+.content .carousel .images .btn-left {
+    display: inline-block;
+    vertical-align: central;
+    width: 15%;
+}
+.content .carousel .images .btn-right {
+    display: inline-block;
+    vertical-align: central;
+    width: 15%;
+}
+.content .button{
+    position: sticky;
+}
+
+.quote:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 110px;}
+}
+.footer{
+    background-color: lightslategrey;
+}
+input[type="Red"]
+{
+
+}

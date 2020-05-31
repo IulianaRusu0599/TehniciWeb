@@ -1,0 +1,72 @@
+.content {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 5% auto;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    transform-style: flat;
+}
+demo{
+    text-align: justify;
+}
+.container {
+    position: relative;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.content section {
+    margin-top: 5%;
+
+}
+
+.content section .trailer {
+
+    width: 70%;
+    min-height: 500px;
+    display: inline-block;
+}
+
+.content section .t1, .t2 {
+    width: 15%;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.image1 {
+    display: block;
+    width: 50%;
+    height: auto;
+
+}
+.footer{
+    background-color: lightslategrey;
+}
+.film{
+    display: inline-flex;
+    margin-left: 15%;
+}
+.img-click{
+    transform: rotate(-1grad);
+}

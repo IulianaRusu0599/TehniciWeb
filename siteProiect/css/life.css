@@ -1,0 +1,67 @@
+.content {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 5% auto;
+    display: block;
+}
+
+.articles {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem Helvetica, Waree;
+}
+
+.articles > h1,
+.child {
+    margin: 2rem .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+
+.child:nth-child(2){
+    background: right/contain content-box border-box no-repeat
+    url('../img/freddie.jpg') white;
+}
+.child:nth-child(3){
+    background: right/contain content-box border-box no-repeat
+    url('../img/remi.jpg') white;
+}
+.child:nth-child(4){
+    background: right/contain content-box border-box no-repeat
+   white;
+}
+.child:nth-child(5){
+    background: right/contain content-box border-box no-repeat
+     white;
+}
+
+.child:nth-child(6){
+    background: right/contain content-box border-box no-repeat
+     white;
+}
+
+.child > h2, .child > aside {
+    margin: .2rem;
+    font-size: 1rem;
+}
+.footer{
+    background-color: lightslategrey;
+}
+
+#imagine{
+    box-sizing: border-box;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+}
+.closebtn {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.closebtn:hover {
+    color: #000;
+}

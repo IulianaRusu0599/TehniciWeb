@@ -1,0 +1,65 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.content div h1 {
+    margin-top: 10%;
+    font-family: "Courier 10 Pitch";
+    font-size: xx-large;
+}
+
+.content {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 5% auto;
+
+    display: block;
+}
+
+.content .albume {
+    padding: 2%;
+
+}
+
+.content .albume table tr td:first-of-type {
+    vertical-align: text-top;;
+}
+
+.content .text{
+    margin-top: 5%;
+}
+
+.content .nav {
+    display: flex;
+
+}
+
+#myDiv1, #myDiv2{
+    float: left;
+    width: 650px;
+    height: 600px;
+    margin: 1em;
+    alignment:  right;
+    padding: 80px;
+}
+#myP1, #myP2 {
+    background-image: initial;
+    border:2px solid;
+    padding: 50px;
+    float:  top;
+
+}
+
+.footer{
+    background-color: lightslategrey;
+}
